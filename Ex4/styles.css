@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* :root{
+    --primary-clr: rgb(57, 98, 209);
+    --secondary-clr: rgb(243, 84, 235);
+} */
+/* :root{
+    --primary-clr: rgb(127, 202, 212);
+    --secondary-clr: rgb(108, 84, 243);
+} */
+/* :root{
+    --primary-clr: rgb(29, 22, 48);
+    --secondary-clr: rgb(125, 152, 177);
+} */
+:root{
+    --primary-clr: rgb(175, 189, 202);
+    --secondary-clr: rgb(29, 22, 48);
+}
+.navbar{
+    background-color: var(--primary-clr);
+    color: var(secondary-clr);
+    display: flex;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+ul li{
+    margin: 10px;
+}
+a{
+    color: var(--secondary-clr);
+    text-decoration: none;
+}

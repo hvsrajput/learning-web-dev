@@ -1,0 +1,94 @@
+.box {
+    height: 121px;
+    width: 121px;
+    background-color: red;
+    border-radius: 70px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    /* position: absolute;
+    bottom: 0;
+    left: 0; */
+    /* animation: bounce 2.5s cubic-bezier(0.65, 0.05, 0.36, 1) 2s forwards; */
+    animation: x-axis 3s linear 2s infinite, y-axis 1s ease-out 2s infinite alternate;
+}
+.container {
+  position: relative;
+  height: 80vh;
+  width: 80vw;
+  background-color: blue;
+}
+@keyframes x-axis {
+    from{
+        left: 0;
+    }
+    to{
+        left: 100%;
+    }
+}
+@keyframes y-axis {
+    from{
+        bottom: 0;
+    }to{
+        bottom: 100%;
+    }
+}
+/* @keyframes x-axis {
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(986px);
+    }
+}
+@keyframes y-axis {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-165px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+} */
+/* @keyframes bounce {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translate(493px, -207px);
+    }
+    100%{
+        transform: translateX(986px);
+    }
+} */
+/* @keyframes bounce {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  12.5% {
+    transform: translate(123.25px, -57.89px);
+  }
+  25% {
+    transform: translate(246.5px, -123.9px);
+  }
+  37.5% {
+    transform: translate(369.75px, -157.2px);
+  }
+  50% {
+    transform: translate(493px, -165.2px);
+  }
+  62.5% {
+    transform: translate(616.25px, -157.2px);
+  }
+  75% {
+    transform: translate(739.5px, -123.9px);
+  }
+  87.5% {
+    transform: translate(862.75px, -57.89px);
+  }
+  100% {
+    transform: translate(986px, 0px);
+  }
+} */

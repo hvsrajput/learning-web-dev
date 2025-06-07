@@ -1,0 +1,67 @@
+.card_container{
+    height: 500px;
+    width: 300px;
+    border: 1px solid grey;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
+.image_container{
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.image{
+    background-image: url(pexels-le-ngoc-tan-342723-955242.jpg);
+    background-size: cover;
+    border: 1px solid grey;
+    border-radius: 8px;
+    width: 90%;
+    height: 90%;
+}
+.tags{
+    display: flex;
+    margin-left: 15px;
+}
+.tag_container{
+    font-size: 16px;
+    height: 20px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    border: 1px solid grey;
+    border-radius: 15px;
+}
+.text{
+    margin: 0px 0px 0px 15px;
+    padding: 0px;
+}
+.text h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.text p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.text_container{
+    margin: 0px;
+}
+.read_more_container{
+    display: flex;
+    justify-content: center;
+}
+.read_more{
+    background-color: lightblue;
+    height: 40px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    border-radius: 25px;
+}

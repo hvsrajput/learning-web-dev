@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+    /* color: white; */
+    font-family: "Poppins", sans-serif;
+    /* overflow-x: hidden; */
+}
+/* .transparency{
+    background-color: transparent;
+} */
+nav{
+    margin: 0px auto;
+    padding: 25px 0px;
+    position: absolute;
+    background-image: linear-gradient(180deg,rgba(0, 0, 0, 0.8000) 0.000%, rgba(0, 0, 0, 0.7889) 8.333%, rgba(0, 0, 0, 0.7556) 16.67%, rgba(0, 0, 0, 0.7000) 25.00%, rgba(0, 0, 0, 0.6222) 33.33%, rgba(0, 0, 0, 0.5222) 41.67%, rgba(0, 0, 0, 0.4000) 50.00%, rgba(0, 0, 0, 0.2778) 58.33%, rgba(0, 0, 0, 0.1778) 66.67%, rgba(0, 0, 0, 0.1000) 75.00%, rgba(0, 0, 0, 0.04444) 83.33%, rgba(0, 0, 0, 0.01111) 91.67%, rgba(0, 0, 0, 0.000) 100.0%);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    z-index: 5;
+}
+.logo{
+    background-image: url(assets/logo.svg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    width: 148px;
+    height: 40px;
+}
+.right-nav{
+    display: flex;
+    gap: 10px;
+    height: 32px;
+}
+.lang-select{
+    border: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    border-radius: 4px;
+}
+div select{
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    border: none;
+    font-weight: 400;
+    /* display: flex;
+    justify-content: space-evenly; */
+}
+option{
+    /* background-color: transparent; */
+    /* background: transparent; */
+    color: black;
+}
+.lang-svg{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.red-btn{
+    background-color: rgb(229, 9, 20);
+    color: white;
+    font-size: 14px;
+    padding: 3px 15px;
+    border-radius: 4px;
+    font-weight: 550;
+    border: none;
+}
+
+/* BODY */
+
+main{
+    background-color: black;
+}
+.bg-img{
+    background-image: url(assets/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    position: relative;
+    color: white;
+}
+.black-cover{
+    /* background-color: rgba(0, 0, 0, 0.85); */
+    background-image:linear-gradient(360deg, rgba(0, 0, 0, 0.8500) 8.000%, rgba(0, 0, 0, 0.8465) 15.67%, rgba(0, 0, 0, 0.8361) 23.33%, rgba(0, 0, 0, 0.8187) 31.00%, rgba(0, 0, 0, 0.7944) 38.67%, rgba(0, 0, 0, 0.7632) 46.33%, rgba(0, 0, 0, 0.7250) 54.00%, rgba(0, 0, 0, 0.6868) 61.67%, rgba(0, 0, 0, 0.6556) 69.33%, rgba(0, 0, 0, 0.6312) 77.00%, rgba(0, 0, 0, 0.6139) 84.67%, rgba(0, 0, 0, 0.6035) 92.33%, rgba(0, 0, 0, 0.6000) 100.0%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* z-index: 3; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-email{
+    /* margin: -32px 0px 0px 0px; */
+    width: 60%;
+    margin: 30px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* gap: 5px; */
+}
+.text-div{
+    width: 55%;
+    text-align: center;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.text-div h1{
+    font-size: 60px;
+    font-weight: 900;
+}
+.text-div h3{
+    font-size: 20px;
+    font-weight: 550;
+
+}
+.email-div{
+    width: 65%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.emial-div p{
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.ask-mail{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.email-div input{
+    background: transparent;
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 24px 16px 8px;
+    width: 55%;
+    color: white;
+}
+.email-div button{
+    background-color: rgb(229, 9, 20);
+    color: white;
+    border: none;
+    padding: 10px 23px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+}
+.email-div button h4{
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 4px;
+}
+.trending-now, .more-reasons, .faqs, .mail-entry{
+    margin: 30px auto;
+    width: 60%;
+    /* background-color: red; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.trending-now h2{
+    margin: 5px 0;
+    font-size: 32px;
+}
+.movies{
+    /* background-color: pink; */
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    /* white-space: nowrap; */
+}
+.movie{
+    /* background-color: blue; */
+    height: 300px;
+    width: 215px;
+    margin: 8px 15px;
+    /* gap: 20px; */
+    flex-shrink: 0;
+}
+.movies::-webkit-scrollbar{
+    background-color: black;
+}
+.movie-no{
+    /* background-color: violet; */
+    font-size: 120px;
+    font-family: 'Segoe UI';
+    /* display: flex; */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.movie1-img{
+    background-image: url(assets/hit-3.webp);
+    background-size: cover;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+.movie2-img{
+    background-image: url(assets/retro.webp);
+    background-size: cover;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+.movie3-img{
+    background-image: url(assets/chhava.webp);
+    background-size: cover;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+.movie4-img{
+    background-image: url(assets/royals.webp);
+    background-size: cover;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+.movie5-img{
+    background-image: url(assets/sikandar.webp);
+    background-size: cover;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+.movie6-img{
+    background-image: url(assets/diplomat.webp);
+    background-size: cover;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+.movie7-img{
+    background-image: url(assets/good-bad-boy.webp);
+    background-size: cover;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+.movie8-img{
+    background-image: url(assets/pushpa-2.webp);
+    background-size: cover;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+.movie9-img{
+    background-image: url(assets/when-life-gives-you-tangerines.webp);
+    background-size: cover;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+.movie10-img{
+    background-image: url(assets/deva.webp);
+    background-size: cover;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+.more-reasons h2{
+    margin: 10px 0;
+    font-size: 32px;
+}
+.reasons-cont{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.reason{
+    /* background-color: blueviolet; */
+    background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);;
+    width: 24%;
+    height: 290px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    gap: 20px;
+}
+.reason-text{
+    display: flex;
+    flex-direction: column;
+    padding: 25px 5px;
+    gap: 20px;
+}
+.reason-heading{
+    /* background-color: pink; */
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+}
+.reason-desc{
+    /* background-color: aqua; */
+    color: grey;
+    font-size: 16px;
+    font-weight: 400;
+}
+.reason-svg{
+    background-color: azure;
+    height: 72px;
+    width: 72px;
+    position: relative;
+    right: 1rem;
+    bottom: 1rem;
+}
+.faqs h2{
+    margin: 10px 0;
+    font-size: 32px;
+}
+.faq{
+    margin: 10px 0px auto;
+    padding: 0px 20px;
+    background-color: #2d2d2d;
+    width: 100%;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.faq-text{
+    font-size: 24px;
+    font-weight: 400;
+}
+.plus{
+    font-size: 64px;
+    font-weight: 100;
+}
+.mail-entry .email-div p{
+    color: white;
+}
+.mail-entry .email-div{
+    margin: 40px auto;
+    width: 80%;
+}
+.footer{
+    margin: auto;
+    background-color: black;
+    color: #b3b3b3;
+    width: 60%;
+    height: 500px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+}
+.footer p{
+    margin: 36px 0px;
+    font-size: 16px;
+}
+.foot-content-cont{
+    display: grid;
+    grid-template-columns: repeat(4, 288px);
+    grid-template-rows: repeat(4, 33px);
+    margin: -12px 0px 30px -12px;
+}
+.footer-content{
+    margin: 12px 0px 0px 12px;
+}
+.footer p a{
+    color: #b3b3b3;
+}
+.footer-content a{
+    color: #b3b3b3;
+    font-size: 14px;
+}
+.footer .lang-select{
+    width: fit-content;
+    margin: 50px 0px;
+}
+.footer .lang-select #language-select{
+    font-weight: 300;
+}
+.netflix-india{
+    font-size: 14px;
+    margin: 30px 0px;
+}
+.google-protection{
+    font-size: 13px;
+    margin: 30px 0px;
+}

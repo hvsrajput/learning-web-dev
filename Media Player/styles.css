@@ -1,0 +1,30 @@
+.header{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+    height: 20px;
+}
+.video-container {
+    display: flex;
+}
+.video-cont{
+    margin: 2px;
+    justify-content: center;
+    align-items: center;
+    width: 19.75%;
+}
+.videos{
+    width: 100%;
+    margin: 0px;
+}
+.video-text{
+    text-align: center;
+}
+.audio-container{
+    display: flex;
+}

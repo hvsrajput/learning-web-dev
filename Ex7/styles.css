@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI";
+}
+
+/* HEADER */
+
+.main_container{
+    height: 96px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.navbar{
+    height: 96px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo-container{
+    /* margin: 0px 20px; */
+    height: 96px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    /* margin-left: 140px; */
+}
+.logo{
+    background-image: url(Untitled\ design.png);
+    background-size: cover;
+    height: 56px;
+    /* width: 180px; */
+}
+.right-side ul{
+    display: flex;
+    gap: 20px;
+}
+.right-side ul li{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    cursor: pointer;
+}
+.right-side ul li span{
+    padding: 0px 5px;
+}
+
+/* BODY */
+
+.main-down-cont{
+    margin: 50px auto;
+    width: 960px;
+    /* height: 76px; */
+    text-align: center;
+}
+.main-down{
+    display: flex;
+    justify-content: center;
+}
+.main-down h1{
+    font-size: 48px;
+    font-weight: 400;
+    padding: 20px 0px;
+}
+.review-read{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.review-read-img{
+    background-image: url(Reviews.png);
+    background-size: cover;
+    /* background-color: rgb(228, 82, 14); */
+    height: 32px;
+    width: 112px;
+    border-radius: 6px;
+}
+.down-msg-main h3{
+    font-size: 24px;
+    font-weight: 400;
+    padding: 20px 0px;
+}
+.download-msg-container{
+    margin: 0 auto;
+    width: 960px;
+    height: 76px;
+    display: flex;
+}
+.down-button-main-cont{
+    display: flex;
+    justify-content: center;
+}
+.down-button-main{
+    background-color: #00b6d1;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 6px;
+    height: 48px;
+    /* width: 293px; */
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.logo-only-cont{
+    padding: 0px 15px;
+}
+.logo-only{
+    background-image: url(Untitled\ logo.png);
+    background-size: cover;
+    height: 56px;
+    width: 56px;
+}
+.down-text{
+    height: 46px;
+    display: flex;
+    align-items: end;
+    font-size: 24px;
+    gap: 5px;
+}
+.ver-text{
+    font-size: 14px;
+}
+.download_container{
+    margin: 50px auto;
+    display: grid;
+    grid-template-rows: repeat(4, 220px);
+    grid-template-columns: repeat(3, 320px);
+    width: 960px;
+    height: 880px;
+}
+.lang-cont{
+    background-color: #f9f9f9;
+    width: 302px;
+    height: 202px;
+    margin: 9px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    border-radius: 6px;
+}
+.lang-cont h5{
+    font-size: 20px;
+    /* margin: 5px; */
+    /* line-height: 2.2em; */
+}
+.down-button{
+    background-color: #5cb85c;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 6px;
+    height: 32px;
+    /* width: 132px; */
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.bottom-text{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 320px; */
+}
+.mod-no{
+    /* width: 90%; */
+    font-size: 10px;
+}
+.lic-no{
+    width: 80%;
+    /* display: flex;
+    flex-wrap: wrap; */
+    font-size: 7.3px;
+    white-space: normal;
+    word-wrap: break-word;
+}
+.newsletter-cont{
+    height: 635px;
+    background-color: #222;
+    color: #fff;
+    padding: 4% 0;
+}
+.news-upper-cont{
+    margin: 0 auto;
+    padding: 20px 0px;
+    height: 350px;
+    width: 960px;
+    display: grid;
+    grid-template-columns: 510px 450px;
+}
+.left-upper-div{
+    width: 85%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 10px;
+}
+.join-newsletter h3{
+    font-size: 24px;
+}
+.sign-up-text{
+    font-size: 16px;
+}
+.right-upper-div{
+    display: flex;
+    justify-content: center;
+}
+.sign-up-outer-cont{
+    width: 75%;
+    height: 250px;
+    background-color: #f9f9f9;
+    color: #222;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-up-cont{
+    height: 75%;
+    width: 75%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.subscribe-to-email{
+    text-align: center;
+    padding: 0 0 10px 0;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+.subscribe-to-email h3{
+    color: #00b6d1;
+    font-weight: 400;
+    font-size: 24px;
+}
+.enter-mail{
+    font-size: 14px;
+}
+.email{
+    width: 100%;
+    height: 40px;
+    padding: 0 0 10px 0;
+}
+/* .sign-up-button-cont{
+    display: flex;
+    justify-content: center;
+}
+.sign-up-button{
+    background-color: #00b6d1;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 6px;
+    height: 48px;
+    width: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+} */
+.sign-up-cont .down-button-main-cont .down-button-main{
+    width: 100%;
+}
+.news-down-cont{
+    margin: 0 auto;
+    padding: 20px 0px;
+    height: 220px;
+    width: 960px;
+    font-size: 16px;
+    /* font-weight: 400; */
+}
+.news-down-cont h3{
+    font-size: 24px;
+    font-weight: 400;
+    padding: 0 0 15px 0;
+}
+.news-down-cont p{
+    padding: 0 0 15px 0;
+}
+.news-down-cont a{
+    text-decoration: none;
+    color: #00b6d1;
+}
