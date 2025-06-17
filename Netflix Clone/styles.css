@@ -192,6 +192,11 @@ main{
     margin: 8px 15px;
     /* gap: 20px; */
     flex-shrink: 0;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+.movie:hover{
+    transform: scale(1.05);
 }
 .movies::-webkit-scrollbar{
     background-color: black;
